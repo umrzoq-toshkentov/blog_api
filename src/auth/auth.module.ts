@@ -11,7 +11,7 @@ import { AuthService } from './auth.service';
       {
         typegooseClass: UserModel,
         schemaOptions: {
-          collection: 'Auth',
+          collection: 'User',
         },
       },
     ]),
